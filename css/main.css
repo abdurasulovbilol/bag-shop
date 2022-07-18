@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.container .header {
+  background-image: url(../img/backgroung.png);
+  background-position: center;
+  background-size: cover;
+  width: 1300px;
+  height: 840px;
+}
+.container .header .header-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+}
+.container .header .header-top .header__list {
+  display: flex;
+}
+.container .header .header-top .header__list-item {
+  list-style: none;
+  margin-right: 30px;
+  transition: 0, 5s;
+}
+.container .header .header-top .header__list-item :hover {
+  transform: scale(1.2);
+  color: white;
+}
+.container .header .header-top .header__list-item a {
+  text-decoration: none;
+  color: gray;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.container .header .header-top .header__list-item-button {
+  margin-left: 80px;
+  list-style: none;
+  padding: 10px 30px;
+  margin-top: -10px;
+  background-color: #f59b00;
+  font-size: 20px;
+}
+.container .header .header-top .header__list-item-button :hover {
+  color: white;
+}
+.container .header .header-top .header__list-item-button a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.container .header .header__centor {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 50px;
+}
+.container .header .header__centor .header__left {
+  width: 400px;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+.container .header .header__centor .header__left h1 {
+  font-size: 20px;
+  color: #f59b00;
+  margin: 20px 0px;
+  font-family: Poppins;
+  font-family: sans-serif;
+}
+.container .header .header__centor .header__left h2 {
+  font-size: 50px;
+  font-family: Poppins;
+  font-family: sans-serif;
+  margin: 30px 0px;
+}
+.container .header .header__centor .header__left p {
+  font-family: Poppins;
+  font-family: sans-serif;
+  color: gray;
+  margin-bottom: 40px;
+}
+.container .header .header__centor .header__left .header__button :hover {
+  color: white;
+}
+.container .header .header__centor .header__left .header__button a {
+  padding: 10px 25px;
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+  background-color: #f59b00;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.container .section1 {
+  display: flex;
+  justify-content: space-around;
+}
+.container .section1 p {
+  margin: 100px 0px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-family: sans-serif;
+}
+.container .section1 p a {
+  text-decoration: none;
+  color: gray;
+}
+.container .section1.section1__box-shadow img {
+  box-shadow: 0 0 10px 5px rgba(208, 206, 206, 0.516);
+  border-radius: 3px;
+  margin-bottom: 40px;
+  transition: 0.5s;
+}
+.container .section1.section1__box-shadow :hover {
+  transform: scale(1.1);
+}
+.container .section2 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .section2 .container2__right {
+  margin-top: 170px;
+}
+.container .section2 .container2__right h3 {
+  font-size: 35px;
+  margin: 20px 0px;
+  font-family: Poppins;
+  font-family: sans-serif;
+}
+.container .section2 .container2__right p {
+  font-family: Poppins;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.container .section2 .container2__right .section2__button :hover {
+  color: white;
+}
+.container .section2 .container2__right .section2__button a {
+  list-style: none;
+  padding: 12px 30px;
+  margin-top: -10px;
+  background-color: #f59b00;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: gray;
+  text-transform: capitalize;
+}
+.container .section3 .section3__text-center {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  margin-top: 50px;
+}
+.container .section3 .section3__text-center h3 {
+  text-transform: capitalize;
+  margin: 30px 0px;
+  font-size: 25px;
+}
+.container .section3 .section3__imggs .section__imggs1 {
+  display: flex;
+  margin-left: 100px;
+} /*# sourceMappingURL=main.css.map */
